@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Here](https://your-solution-url.com)
+- Solution URL: [Here](https://www.frontendmentor.io/solutions/order-summary-component-xX8FvgBKz)
 - Live Site URL: [Here](https://order-summary-compo.netlify.app/)
 
 ## My process
