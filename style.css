@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+:root{
+    /* Primary */
+--PaleBlue: hsl(225, 100%, 94%);
+--BrightBlue: hsl(245, 75%, 52%);
+
+    /* Neutral */
+--VeryPaleBlue: hsl(225, 100%, 98%);
+--DesaturatedBlue: hsl(224, 23%, 55%);
+--DarkBlue: hsl(223, 47%, 23%);
+}
+
+*{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px ;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: var(--PaleBlue);
+}
+
+.card{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        width: 450px;
+        height: 697px;
+        border-radius: 20px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        text-align: center;      
+}
+
+.card image{
+    height: 220px;
+}
+.card h1{
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--DarkBlue);
+    margin-top: 45px;
+}
+
+.card a{
+    margin-top: 32px;
+}
+
+.card>p{
+    margin-top: 17px;
+    height: 78px;
+    width: 354px;
+    font-weight: 500;
+    color: var(--DesaturatedBlue);
+    line-height: 26px;
+}
+
+.card .containerPlan{
+    height: 98px;
+    width: 354px;
+    background-color: var(--VeryPaleBlue);
+    margin-top: 20px;
+    border-radius: 11px;
+    position: relative;
+
+}
+
+.blockPlan{
+    display: flex;
+    height: 48px;
+    width: 306px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+
+.blockPlan .pricePlan{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 48px;
+    width: 92px;
+    margin-left: 20px;
+}
+
+.pricePlan h3{
+    font-weight: 900;
+}
+
+.pricePlan p{
+    color: var(--DesaturatedBlue);
+    font-weight: 500;
+}
+
+.linkPlan a{
+    margin-left: 94px;
+    text-decoration: underline;
+    color: var(--BrightBlue);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.linkPlan a:hover{
+    text-decoration: none;
+    color: #766CF1;
+}
+
+.proceed{
+    text-decoration: none;
+    width: 354px;
+    height: 50px;
+    border-radius: 11px;
+    background-color: var(--BrightBlue);
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 15px;
+    font-weight: 900;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.1903);
+
+}
+
+.proceed:hover{
+    background-color: #766CF1;
+}
+
+.cancel{
+    font-size: 15px;
+    font-weight: 900;
+    color: var(--DesaturatedBlue);
+}
+
+.cancel:hover{
+    color: black;
+}
+
